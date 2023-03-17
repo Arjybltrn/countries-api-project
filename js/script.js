@@ -3,7 +3,7 @@ let countryData, userInput;
 
 const $country = $('#country')
 const $capital = $('#capital')
-// const $lang  = $('#lang')
+const $lang  = $('#lang')
 const $population = $('#population')
 const $currency = $('#currency')
 
@@ -27,8 +27,8 @@ function handleGetData(event) {
     url: 'https://restcountries.com/v3.1/name/' + userInput + '?fullText=true'
 }).then(
   (data) => {
-    countryData = data;
-    console.log(data)
+    countryData = data[0];
+    console.log(countryData)
    
    render()
   },
@@ -39,29 +39,52 @@ function handleGetData(event) {
 }
 function render () {
     // Name of the country
-    $country.text(`${countryData[0].name.common} ${countryData[0].flag}`)
+    $country.text(`${countryData.name.common} ${countryData.flag}`)
     // Capital of the country
-    $capital.text("The capital of " +  countryData[0].name.common + " is " + countryData[0].capital + ".")
+    $capital.text("The capital of " +  countryData.name.common + " is " + countryData.capital + ".")
+
     // Language
-    // $lang.text(`Languages: ${countryData[0].languages.eng}`)
+    let langArray = countryData.languages
+    // console.log(langArray)
 
-    // Check Population 
+    $lang.text(`Languages spoken: ${langArray}`)
     
-    $population.text(`Population: ${countryData[0].population}`)
+    
 
+    // Check Population then converts to a string(commas added)
+    let num = countryData.population
+    // console.log(num) 
+    let out = num.toLocaleString()
+    // console.log(out)
+    $population.text(`Population: ${out}`)
+
+
+    // Check currencies
+
+    // $currency.text(`Currencies: JSON.stringify(${countryData.currencies})`)
+
+    // console.log(countryData.currencies)
+    
+    
+    const curr = countryData.currencies
+    console.log(curr)
+
+    const propNames = Object.keys(curr)
+    console.log(propNames)
+    $currency.text(`Currency: ${propNames}`)
     
     
   
    
     
-    function displayImage(countryData, width, height) {
-      const img = document.createElement("img")
-      img.src = src
-      img.width = width
-      img.height = height
-      document.body.appendChild(img)
-      displayImage(countryData[0].flags.png, 150, 75)
-    }
+    // function displayImage(data, width, height) {
+    //   const img = document.createElement("img")
+    //   img.src = src
+    //   img.width = width
+    //   img.height = height
+    //   document.body.appendChild(img)
+    //   displayImage(countryData[0].flags.png, 150, 75)
+    // }
     
   }
 
