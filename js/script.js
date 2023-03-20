@@ -1,4 +1,4 @@
-let countryData, userInput;
+let countries, countryData, userInput;
 
 
 const $country = $('#country')
@@ -43,22 +43,22 @@ function render () {
     // Name of the country
     $country.text(`${countryData.name.common} ${countryData.flag}`)
     // Capital of the country
-    $capital.text("The capital of " +  countryData.name.common + " is " + countryData.capital + ".")
+    $capital.text(`Capital: ${countryData.capital}`)
 
-    // Language
-    const langArray = countryData.languages
-    const langVal = Object.values(langArray)
-    // console.log(langVal)
-    $lang.text(`Languages spoken: ${langVal}`)
     
-    
-
     // Check Population then converts to a string(commas added)
     let num = countryData.population
     // console.log(num) 
     let out = num.toLocaleString()
     // console.log(out)
-    $population.text(`Population: ${out}`)
+    $population.text(`Population: ${out} people`)
+
+
+    // Language
+    const langArray = countryData.languages
+    const langVal = Object.values(langArray)
+    console.log(langVal)
+    $lang.text(`Languages: ${langVal}`)
 
 
     // Check currencies
@@ -66,7 +66,7 @@ function render () {
     const curr = countryData.currencies
     const countryCurr = Object.values(curr)
     // console.log(countryCurr[0].name)
-    $currency.text(`Symbol: ${countryCurr[0].symbol} Currency: ${countryCurr[0].name} `)
+    $currency.text(`Currency: ${countryCurr[0].symbol} ${countryCurr[0].name} `)
 
     // Displays flag image / then uses replaceChild() to replace appended img
     
@@ -102,10 +102,19 @@ function render () {
     
     }
     link.href = countryFlag[1]
+
+    // Replace title with the country name
+
+    const titleEl = document.getElementById('title')
+    const newTitle = document.createElement('title')
+    newTitle.textContent = countryData.name.common
+    console.log(countryData.name.common)
+
+
+    titleEl.append(newTitle)
     
    
-
-    // Displays a map of the userInput
+    // Displays a map of the userInput (roadblock - cannot append map on website - needs iframe link api unable to provide proper one)
 
     const maps = countryData.maps
     // console.log(maps.googleMaps)
@@ -118,9 +127,8 @@ function render () {
     //  gMap.setAttribute('src', maps.googleMaps) // if I wanna use  setAttribute()
     mapDiv.append(gMap)
 
-    
-
-  }
+}
+  
 
 
    
