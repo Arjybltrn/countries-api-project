@@ -37,6 +37,8 @@ function handleGetData(event) {
   }
  )
 }
+
+
 function render () {
     // Name of the country
     $country.text(`${countryData.name.common} ${countryData.flag}`)
@@ -46,7 +48,7 @@ function render () {
     // Language
     const langArray = countryData.languages
     const langVal = Object.values(langArray)
-    console.log(langVal)
+    // console.log(langVal)
     $lang.text(`Languages spoken: ${langVal}`)
     
     
@@ -61,35 +63,90 @@ function render () {
 
     // Check currencies
 
-    // $currency.text(`Currencies: JSON.stringify(${countryData.currencies})`)
-
-    // console.log(countryData.currencies)
-    
-    
     const curr = countryData.currencies
-   
     const countryCurr = Object.values(curr)
     // console.log(countryCurr[0].name)
-    
-    $currency.text(`Currency: ${countryCurr[0].name} Symbol: ${countryCurr[0].symbol}`)
+    $currency.text(`Symbol: ${countryCurr[0].symbol} Currency: ${countryCurr[0].name} `)
 
-    // const propNames = Object.keys(curr)
-    // $currency.text(`Currency: ${propNames}`)
+    // Displays flag image / then uses replaceChild() to replace appended img
+    
+    const flagValues = countryData.flags
+    const countryFlag = Object.values(flagValues)
+   
+    // console.log(countryFlag[0])
+    
+    const flagDiv = document.getElementById('flag-img')
+
+    const img = document.createElement('img')
+    img.src = countryFlag[0]
+
+    flagDiv.appendChild(img)
+
+    const flagDiv1 = document.getElementById('flag-img')
+    const newFlag = document.createElement('img')
+    // console.log(newFlag)
+    newFlag.src = countryFlag[0]
+    flagDiv1.replaceChild(img, flagDiv1.firstElementChild)
     
     
   
+
+
+    // Creates a favicon for the country searched using if statement
+    let link = document.querySelector("link[rel='icon']")
+    // console.log(link) 
+    if (!link) {
+    link = document.createElement('link')
+    link.rel = 'icon'
+    document.head.appendChild(link)
+    
+    }
+    link.href = countryFlag[1]
+    
+   
+
+    // Displays a map of the userInput
+
+    const maps = countryData.maps
+    // console.log(maps.googleMaps)
+
+    let mapDiv = document.getElementById('map')
+    const gMap = document.createElement('a')
+    // console.log(mapDiv)
+    gMap.href = maps.googleMaps
+    // console.log(gMap)
+    //  gMap.setAttribute('src', maps.googleMaps) // if I wanna use  setAttribute()
+    mapDiv.append(gMap)
+
+    
+
+  }
+
+
+   
+  
+
+
+  //  const map = document.getElementById('map')
+  //  const gMap = document.createElement('a')
+  //  console.log(gMap)
+  //  a.href = maps.googleMaps
+  //  console.log(gMap.href)
+
+  //  let map = document.querySelector("#map")
+  //  console.log(map)
+   
+
+   
+
+    
+
+
+
+   
    
     
-    // function displayImage(data, width, height) {
-    //   const img = document.createElement("img")
-    //   img.src = src
-    //   img.width = width
-    //   img.height = height
-    //   document.body.appendChild(img)
-    //   displayImage(countryData[0].flags.png, 150, 75)
-    // }
-    
-  }
+
 
 
 
