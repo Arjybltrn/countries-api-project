@@ -44,10 +44,10 @@ function render () {
     $capital.text("The capital of " +  countryData.name.common + " is " + countryData.capital + ".")
 
     // Language
-    let langArray = countryData.languages
-    // console.log(langArray)
-
-    $lang.text(`Languages spoken: ${langArray}`)
+    const langArray = countryData.languages
+    const langVal = Object.values(langArray)
+    console.log(langVal)
+    $lang.text(`Languages spoken: ${langVal}`)
     
     
 
@@ -67,11 +67,14 @@ function render () {
     
     
     const curr = countryData.currencies
-    console.log(curr)
+   
+    const countryCurr = Object.values(curr)
+    // console.log(countryCurr[0].name)
+    
+    $currency.text(`Currency: ${countryCurr[0].name} Symbol: ${countryCurr[0].symbol}`)
 
-    const propNames = Object.keys(curr)
-    console.log(propNames)
-    $currency.text(`Currency: ${propNames}`)
+    // const propNames = Object.keys(curr)
+    // $currency.text(`Currency: ${propNames}`)
     
     
   
