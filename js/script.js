@@ -41,17 +41,19 @@ function handleGetData(event) {
 
 function render () {
     // Name of the country
-    $country.text(`${countryData.name.common} ${countryData.flag}`)
+    $country.text(`${countryData.name.common}`)
+
     // Capital of the country
+    
     $capital.text(`Capital: ${countryData.capital}`)
 
     
     // Check Population then converts to a string(commas added)
     let num = countryData.population
     // console.log(num) 
-    let out = num.toLocaleString()
-    // console.log(out)
-    $population.text(`Population: ${out} people`)
+    let peeps = num.toLocaleString()
+    // console.log(peeps)
+    $population.text(`Population: ${peeps} people`)
 
 
     // Language
@@ -103,7 +105,7 @@ function render () {
     }
     link.href = countryFlag[1]
 
-    // Replace title with the country name
+    // Replace title with the country
 
     const titleEl = document.getElementById('title')
     const newTitle = document.createElement('title')
@@ -116,16 +118,16 @@ function render () {
    
     // Displays a map of the userInput (roadblock - cannot append map on website - needs iframe link api unable to provide proper one)
 
-    const maps = countryData.maps
-    // console.log(maps.googleMaps)
+    // const maps = countryData.maps
+    // // console.log(maps.googleMaps)
 
-    let mapDiv = document.getElementById('map')
-    const gMap = document.createElement('a')
-    // console.log(mapDiv)
-    gMap.href = maps.googleMaps
-    // console.log(gMap)
-    //  gMap.setAttribute('src', maps.googleMaps) // if I wanna use  setAttribute()
-    mapDiv.append(gMap)
+    // let mapDiv = document.getElementById('map')
+    // const gMap = document.createElement('a')
+    // // console.log(mapDiv)
+    // gMap.href = maps.googleMaps
+    // // console.log(gMap)
+    // //  gMap.setAttribute('src', maps.googleMaps) // if I wanna use  setAttribute()
+    // mapDiv.append(gMap)
 
 }
   

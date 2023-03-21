@@ -1,0 +1,179 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  *{
+    box-sizing: border-box;
+  }
+body {
+    background-color: grey;
+    height: 100vh;
+    margin: 0;
+}
+.flex-ctr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container {
+    align-content: center;
+    background-color: whitesmoke;
+    padding: 150px;
+    
+}
+.card {
+    height: auto;
+    width: auto;
+    padding: 50px;
+    border: solid 2px black;
+    border-radius: 10px;
+    align-content: center;
+    justify-content: center;
+    /* position: relative; */
+    margin: auto;
+   
+}
+/* Main div */
+
+
+/* Image div */
+
+img {
+    width: 553px;
+    height: 320px;
+    border:  solid grey 1px;
+    border-radius: 10px;
+
+}
+
+/* Form div */
+
+form {
+    display: flex;
+    margin: 10px ;
+    margin-left: 10px;
+    
+}
+input[type="text"] {
+    width: 192px;
+    height: 40px;
+    font-size:16px;
+    margin-right: 12px;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    width: 88px;
+    height: 40px;
+    font-size:15px;
+    border-radius: 4px;
+}
+.button {
+    background-color:rgb(74,139,210);
+    color: whitesmoke;
+    font-size: 15px;
+    cursor:pointer;
+    border-radius: 1px;
+}
+
+
+/* Font styles */
+
+#main-info > #country {
+    font-size: 120px;
+    font-family: 'Koulen';
+    margin-right: 20px;
+    float:right;
+}
+
+#main-info > #population, #lang, #currency {
+    font-family: 'Miriam Libre', sans-serif;
+    font-size:25px;
+    margin-right: 20px;
+}
+
+#main-info > #capital {
+    font-family: 'Miriam Libre', sans-serif;
+    font-size: 40px;
+    margin-right: 20px;
+    text-align: center;
+  
+}
+table > tr {
+    align-content: center;
+    justify-content: center;
+    margin: 0 auto;
+   
+}
+
+
+
+table {
+    align-content: center;
+    justify-content: center;
+    margin: 0 auto; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .button:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -1px) rotate(-1deg); }
+    20% { transform: translate(-1px, 0px) rotate(1deg); }
+    30% { transform: translate(1px, 1px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-1px, 1px) rotate(0deg); }
+    70% { transform: translate(1px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  } */
+     

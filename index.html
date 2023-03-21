@@ -8,29 +8,44 @@
     <script defer src="./js/script.js"></script>
     <title id="title">World Countries</title>
     <link rel="icon" type="image/x-icon" href="" sizes="16x16 32x32">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Unica+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Miriam+Libre&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&family=Miriam+Libre&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <h1>Hello, World.</h1>
-    <main>
-        <h1 id="country"></h1> 
-        <h2 id="capital"></h2>
-        <h2 id="population"></h2>
-        <h2 id="lang"></h2>
-        
-        <h2 id="currency"></h2> 
-
-        <form>
-            <h3>Type your country</h3>
-            <input type="text" placeholder=""/>
-            <input type="submit" value="Get Country Info">
-        </form>
-
-        <div id="flag-img"></div>
-        <div id="map"></div>
-        
-</main>
-
+<div class="card-container">
+    <div class="card">
+        <table>
+            <tr>
+                <td>
+                <div id="main-info">
+                    <div id="capital"></div>
+                    <div id="population"></div>
+                    <div id="lang"></div>
+                    <div id="currency"></div> 
+                    <div id="country"></div> 
+                </div>
+                </td>
     
+
+                <td>
+                  <div class="flex-ctr" id="flag-img"></div>
+
+                  <form class="flex-ctr">
+                    <input type="text" placeholder="Type a country"/>
+                    <input class="button" type="submit"  value="Submit">
+                  </form>
+                </td>
+            </tr>
+        </table>  
+    </div>
+</div>  
 
 </body>
 </html>
