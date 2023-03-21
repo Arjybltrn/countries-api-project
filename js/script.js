@@ -104,48 +104,16 @@ function render () {
     
     }
     link.href = countryFlag[1]
-
-    // Replace title with the country
-
-    const titleEl = document.getElementById('title')
-    const newTitle = document.createElement('title')
-    newTitle.textContent = countryData.name.common
-    console.log(countryData.name.common)
-
-
-    titleEl.append(newTitle)
-    
-   
-    // Displays a map of the userInput (roadblock - cannot append map on website - needs iframe link api unable to provide proper one)
-
-    // const maps = countryData.maps
-    // // console.log(maps.googleMaps)
-
-    // let mapDiv = document.getElementById('map')
-    // const gMap = document.createElement('a')
-    // // console.log(mapDiv)
-    // gMap.href = maps.googleMaps
-    // // console.log(gMap)
-    // //  gMap.setAttribute('src', maps.googleMaps) // if I wanna use  setAttribute()
-    // mapDiv.append(gMap)
+ 
 
 }
-  
 
 
    
   
 
 
-  //  const map = document.getElementById('map')
-  //  const gMap = document.createElement('a')
-  //  console.log(gMap)
-  //  a.href = maps.googleMaps
-  //  console.log(gMap.href)
 
-  //  let map = document.querySelector("#map")
-  //  console.log(map)
-   
 
    
 

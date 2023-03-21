@@ -7,9 +7,10 @@ html {
     box-sizing: border-box;
   }
 body {
-    background-color: grey;
+    background-color: whitesmoke;
     height: 100vh;
     margin: 0;
+    color: rgb(56,59,65)
 }
 .flex-ctr {
     display: flex;
@@ -24,15 +25,15 @@ body {
     
 }
 .card {
-    height: auto;
-    width: auto;
+    /* height: auto;
+    width: auto; */
     padding: 50px;
     border: solid 2px black;
     border-radius: 10px;
     align-content: center;
     justify-content: center;
-    /* position: relative; */
-    margin: auto;
+    margin: 0 auto;
+    background-color: rgb(231,229,220) ;
    
 }
 /* Main div */
@@ -61,18 +62,20 @@ input[type="text"] {
     height: 40px;
     font-size:16px;
     margin-right: 12px;
-    border-radius: 4px;
+    border-radius: 20px;
+   
 }
 
 input[type="submit"] {
     width: 88px;
     height: 40px;
     font-size:15px;
-    border-radius: 4px;
+    border-radius: 20px;
+    background-color: rgb(231,229,220);
 }
 .button {
-    background-color:rgb(74,139,210);
-    color: whitesmoke;
+    background-color:rgb(231,229,220);
+    color: rgb(56,59,65)
     font-size: 15px;
     cursor:pointer;
     border-radius: 1px;
@@ -92,23 +95,21 @@ input[type="submit"] {
     font-family: 'Miriam Libre', sans-serif;
     font-size:25px;
     margin-right: 20px;
+    text-align: right;
 }
 
 #main-info > #capital {
     font-family: 'Miriam Libre', sans-serif;
     font-size: 40px;
     margin-right: 20px;
-    text-align: center;
+    text-align: right;
   
 }
 table > tr {
     align-content: center;
     justify-content: center;
     margin: 0 auto;
-   
 }
-
-
 
 table {
     align-content: center;
@@ -116,64 +117,105 @@ table {
     margin: 0 auto; 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .button:hover {
-    animation: shake 0.5s;
-    animation-iteration-count: infinite;
+td > #form, td > #flag-img {
+    margin-left: 70px;
 }
-@keyframes shake {
-    0% { transform: translate(1px, 1px) rotate(0deg); }
-    10% { transform: translate(-1px, -1px) rotate(-1deg); }
-    20% { transform: translate(-1px, 0px) rotate(1deg); }
-    30% { transform: translate(1px, 1px) rotate(0deg); }
-    40% { transform: translate(1px, -1px) rotate(1deg); }
-    50% { transform: translate(-1px, 2px) rotate(-1deg); }
-    60% { transform: translate(-1px, 1px) rotate(0deg); }
-    70% { transform: translate(1px, 1px) rotate(-1deg); }
-    80% { transform: translate(-1px, -1px) rotate(1deg); }
-    90% { transform: translate(1px, 2px) rotate(0deg); }
-    100% { transform: translate(1px, -2px) rotate(-1deg); }
-  } */
-     
+
+
+@media only screen and (max-width: 1523px) {
+   img {
+        width: 334px;
+        height: 185px;
+        border:  solid grey 1px;
+        border-radius: 10px;
+    }
+   
+    #main-info > #country {
+        font-size: 80px;
+        font-family: 'Koulen';
+        margin-right: 20px;
+        float:right;
+    }
+    
+    #main-info > #population, #lang, #currency {
+        font-family: 'Miriam Libre', sans-serif;
+        font-size:18px;
+        margin-right: 20px;
+        text-align: right;
+    }
+    
+    #main-info > #capital {
+        font-family: 'Miriam Libre', sans-serif;
+        font-size: 20px;
+        margin-right: 20px;
+        text-align: right;
+      
+    }
+
+
+    @media only screen and (max-width: 1125px) {
+        img {
+            width: 250px;
+            height: 120px;
+            border:  solid grey 1px;
+            border-radius: 10px;
+        }
+       
+        #main-info > #country {
+            font-size: 40px;
+            font-family: 'Koulen';
+            margin-right: 10px;
+            float:right;
+        }
+        
+        #main-info > #population, #lang, #currency {
+            font-family: 'Miriam Libre', sans-serif;
+            font-size:13px;
+            margin-right: 10px;
+            text-align: right;
+        }
+        
+        #main-info > #capital {
+            font-family: 'Miriam Libre', sans-serif;
+            font-size: 15px;
+            margin-right: 10px;
+            text-align: right;
+          
+        }
+}
+@media only screen and (max-width: 903px) {
+    img {
+        width: 220px;
+        height: 110px;
+        border:  solid grey 1px;
+        border-radius: 10px;
+    }
+   
+    #main-info > #country {
+        font-size: 30px;
+        font-family: 'Koulen';
+        margin-right: 8px;
+        float:right;
+    }
+    
+    #main-info > #population, #lang, #currency {
+        font-family: 'Miriam Libre', sans-serif;
+        font-size:10px;
+        margin-right: 8px;
+        text-align: right;
+    }
+    
+    #main-info > #capital {
+        font-family: 'Miriam Libre', sans-serif;
+        font-size: 13px;
+        margin-right: 8px;
+        text-align: right;
+      
+    }
+}
+}
+
+h1 {
+    font-family: 'Source Code Pro', monospace;   
+
+}
