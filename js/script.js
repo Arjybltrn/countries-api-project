@@ -1,4 +1,4 @@
-let countries, countryData, userInput;
+let countryData, userInput;
 
 
 const $country = $('#country')
