@@ -41,7 +41,7 @@ Say hello, to <span style="font-family: Source Code Pro">// HLLO_WRLD.</span>
 
 ## **Screenshots**
 
-![app screenshot](sc1.png)
+![app screenshot](sc1.PNG)
 
 
 <div align="right">
