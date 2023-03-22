@@ -1,6 +1,10 @@
-# // **HLLO_WRLD**
+# <span style="font-family:Source Code Pro">// **HLLO_WRLD** <span>
 
-Need a quick and easy way to check a country's information? Get ready to explore other countries on any device.
+
+    Need a quick and easy way to check a country's information? 
+    
+    Say hello, to // HLLO_WRLD.
+
 
 <!-- TABLE OF CONTENTS -->
 
@@ -10,23 +14,25 @@ Need a quick and easy way to check a country's information? Get ready to explore
 <li><a href="#screenshots">Screenshots</a></li>
 <li><a href="#getting-started">Getting Started</a></li>
 <li><a href="#future-enhancements">Future Enhancements</a></li>
-<li><a href="#Contacts">Future Enhancements</a></li>
-
+<li><a href="#author">Author</a></li>
 </details>
 
-<!-- ABOUT -->
+
 ---
 ## **About the  project**
 ### **Built with**
 
 
-[![HTML5][html-img]][html-url]<br>
-[![CSS][css-img]][css-url]<br>
-[![JavaScript][js-img]][js-url]<br>
-[![Google Fonts][google-fonts-img]][google-fonts-url]<br>
-[![jQuery][jquery-img]][jquery-url]<br>
-[![API][api-img]][api-url]
+- [![HTML5][html-img]][html-url]<br>
+- [![CSS][css-img]][css-url]<br>
+- [![JavaScript][js-img]][js-url]<br>
+- [![Google Fonts][google-fonts-img]][google-fonts-url]<br>
+- [![jQuery][jquery-img]][jquery-url]<br>
+- [![API][api-img]][api-url]
 
+<div align="right">
+    <a href="#top">🔝</a>
+</div>
 
 ---
 
@@ -35,15 +41,25 @@ Need a quick and easy way to check a country's information? Get ready to explore
 ![app screenshot](sc1.png)
 
 
+<div align="right">
+    <a href="#top">🔝</a>
+</div>
+
 ---
 
 ## **Getting Started**
 
 Project Link: <a href="https://hello-world-rose-sigma.vercel.app/" target="_blank">[// HLLO_WRLD]</a>
 
-<!-- (https://hello-world-rose-sigma.vercel.app/) -->
+<div align="right">
+    <a href="#top">🔝</a>
+</div>
 
 ---
+
+
+
+
 
 
 ## **Future Enhancements**
@@ -52,11 +68,24 @@ Project Link: <a href="https://hello-world-rose-sigma.vercel.app/" target="_blan
 - Save a searched country to localstorage
 - Ability to seach multiple countries and display at the same time using carousel
 
+<div align="right">
+    <a href="#top">🔝</a>
+</div>
+
 ---
 
-### Contacts
+## Author
+```
+const aboutMe: = {
+    firstName: "Arjay",
+    lastName: "Beltran",
+    githubUsername: "arjybltrn"
+}
+```
+<div align="right">
+    <a href="#top">🔝</a>
+</div>
 
-Arjay Beltran - 
 
 
 
@@ -73,3 +102,5 @@ Arjay Beltran -
 [jquery-url]: https://jquery.com/
 [api-img]: https://img.shields.io/badge/%20API-Rest%20Countries-important
 [api-url]: https://restcountries.com/
+
+
