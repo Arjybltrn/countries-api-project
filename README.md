@@ -43,10 +43,8 @@ Say hello, to <span style="font-family: Source Code Pro">// HLLO_WRLD.</span>
 
 ![app screenshot](https://i.imgur.com/lRl9DFa.png)
 
-<p>
-    <img src="/Users/arjay/Desktop/project-one/sc1.PNG" />
-</p>
 
+![app screenshot](md_img/sc1.PNG)
 
 <div align="right">
     <a href="#top">🔝</a>
