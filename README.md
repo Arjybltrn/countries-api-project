@@ -70,6 +70,7 @@ Project Link: <a href="https://hello-world-rose-sigma.vercel.app/" target="_blan
 - Save a searched country to localstorage
 - Ability to search multiple countries and display at the same time using a carousel
 - Add a dropdown option to select a country from the list
+- Make it mobile-friendly 
 
 <div align="right">
     <a href="#top">🔝</a>
