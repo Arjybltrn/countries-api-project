@@ -51,7 +51,7 @@ Say hello, to <span style="font-family: Source Code Pro">// HLLO_WRLD.</span>
 
 ## **Getting Started**
 
-Project Link: <a href="https://hello-world-rose-sigma.vercel.app/" target="_blank">[// HLLO_WRLD]</a>
+Project Link: <a href="https://hello-world-rose-sigma.vercel.app/" target="_blank"><span style="font-family:Source Code Pro">**// HLLO_WRLD**</span></a>
 
 <div align="right">
     <a href="#top">🔝</a>
