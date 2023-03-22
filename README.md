@@ -1,9 +1,13 @@
 # <span style="font-family:Source Code Pro">// **HLLO_WRLD** <span>
 
 
-    Need a quick and easy way to check a country's information? 
-    
-    Say hello, to // HLLO_WRLD.
+```sh 
+
+Need a quick and easy way to check information about a country? 
+
+Say hello, to // HLLO_WRLD.
+
+ ```
 
 
 <!-- TABLE OF CONTENTS -->
@@ -66,7 +70,7 @@ Project Link: <a href="https://hello-world-rose-sigma.vercel.app/" target="_blan
 
 - Google Maps for users to navigate the country search
 - Save a searched country to localstorage
-- Ability to seach multiple countries and display at the same time using carousel
+- Ability to search multiple countries and display at the same time using a carousel
 
 <div align="right">
     <a href="#top">🔝</a>
