@@ -10,9 +10,11 @@ const $currency = $('#currency')
 
 
 
+
+
+
+
 const $input = $('input[type="text"]')
-
-
 
 
 $('form').on('submit', handleGetData)
