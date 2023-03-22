@@ -75,7 +75,7 @@ input[type="submit"] {
 }
 .button {
     background-color:rgb(231,229,220);
-    color: rgb(56,59,65)
+    color: rgb(56,59,65);
     font-size: 15px;
     cursor:pointer;
     border-radius: 1px;
