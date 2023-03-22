@@ -18,29 +18,39 @@ Need a quick and easy way to check a country's information? Get ready to explore
 ---
 ## **About the  project**
 ### **Built with**
-- HTML5
-- CSS
-- JavaScript
-- Google Fonts
-- jQuery
-- Rest Countries API
+
+
+[![HTML5][html-img]][html-url]<br>
+[![CSS][css-img]][css-url]<br>
+[![JavaScript][js-img]][js-url]<br>
+[![Google Fonts][google-fonts-img]][google-fonts-url]<br>
+[![jQuery][jquery-img]][jquery-url]<br>
+[![API][api-img]][api-url]
+
 
 ---
 
 ## **Screenshots**
 
-![sc1](https://i.imgur.com/lRl9DFa.png)
+![app screenshot](sc1.png)
+
 
 ---
 
 ## **Getting Started**
 
-Project Link: [// HLLO_WRLD](https://hello-world-rose-sigma.vercel.app/)
+Project Link: <a href="https://hello-world-rose-sigma.vercel.app/" target="_blank">[// HLLO_WRLD]</a>
+
+<!-- (https://hello-world-rose-sigma.vercel.app/) -->
 
 ---
 
 
 ## **Future Enhancements**
+
+- Google Maps for users to navigate the country search
+- Save a searched country to localstorage
+- Ability to seach multiple countries and display at the same time using carousel
 
 ---
 
@@ -50,3 +60,16 @@ Arjay Beltran -
 
 
 
+<!-- markdown links and images-->
+[html-img]: https://img.shields.io/badge/5-HTML-red
+[html-url]: https://developer.mozilla.org/en-US/docs/Glossary/HTML5
+[css-img]: https://img.shields.io/badge/3-CSS-yellow
+[css-url]: https://developer.mozilla.org/en-US/docs/Web/CSS
+[js-img]: https://img.shields.io/badge/JS-JavaScript-black
+[js-url]: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+[google-fonts-img]: https://img.shields.io/badge/%20-Google%20Fonts-blue
+[google-fonts-url]: https://fonts.google.com/
+[jquery-img]: https://img.shields.io/badge/%20-jQuery-success
+[jquery-url]: https://jquery.com/
+[api-img]: https://img.shields.io/badge/%20API-Rest%20Countries-important
+[api-url]: https://restcountries.com/
