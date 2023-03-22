@@ -1,13 +1,12 @@
 # <span style="font-family:Source Code Pro">// **HLLO_WRLD** <span>
 
-
-```sh 
-
+    
 Need a quick and easy way to check information about a country? 
 
-Say hello, to // HLLO_WRLD.
+Say hello, to <span style="font-family: Source Code Pro">// HLLO_WRLD.</span>
 
- ```
+---
+
 
 
 <!-- TABLE OF CONTENTS -->
@@ -27,12 +26,12 @@ Say hello, to // HLLO_WRLD.
 ### **Built with**
 
 
-- [![HTML5][html-img]][html-url]<br>
-- [![CSS][css-img]][css-url]<br>
-- [![JavaScript][js-img]][js-url]<br>
-- [![Google Fonts][google-fonts-img]][google-fonts-url]<br>
-- [![jQuery][jquery-img]][jquery-url]<br>
-- [![API][api-img]][api-url]
+[![HTML5][html-img]][html-url]<br>
+[![CSS][css-img]][css-url]<br>
+[![JavaScript][js-img]][js-url]<br>
+[![Google Fonts][google-fonts-img]][google-fonts-url]<br>
+ [![jQuery][jquery-img]][jquery-url]<br>
+[![API][api-img]][api-url]
 
 <div align="right">
     <a href="#top">🔝</a>
