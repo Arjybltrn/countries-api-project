@@ -41,7 +41,7 @@ Say hello, to <span style="font-family: Source Code Pro">// HLLO_WRLD.</span>
 
 ## **Screenshots**
 
-![app screenshot](sc1.PNG)
+![app screenshot](https://i.imgur.com/lRl9DFa.png)
 
 <p>
     <img src="/Users/arjay/Desktop/project-one/sc1.PNG" />
