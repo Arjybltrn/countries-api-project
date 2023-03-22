@@ -41,9 +41,6 @@ Say hello, to <span style="font-family: Source Code Pro">// HLLO_WRLD.</span>
 
 ## **Screenshots**
 
-![app screenshot](https://i.imgur.com/lRl9DFa.png)
-
-
 ![app screenshot](md_img/sc1.PNG)
 
 <div align="right">
