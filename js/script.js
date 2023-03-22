@@ -90,22 +90,16 @@ function render () {
     newFlag.src = countryFlag[0]
     flagDiv1.replaceChild(img, flagDiv1.firstElementChild)
     
-    
-  
-
 
     // Creates a favicon for the country searched using if statement
     let link = document.querySelector("link[rel='icon']")
     // console.log(link) 
     if (!link) {
-    link = document.createElement('link')
-    link.rel = 'icon'
-    document.head.appendChild(link)
-    
-    }
-    link.href = countryFlag[1]
- 
-
+      link = document.createElement('link')
+      link.rel = 'icon'
+      document.head.appendChild(link)
+   }
+      link.href = countryFlag[1]
 }
 
 

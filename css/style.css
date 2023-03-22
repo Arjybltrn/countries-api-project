@@ -142,6 +142,7 @@ td > #form, td > #flag-img {
         font-size:18px;
         margin-right: 20px;
         text-align: right;
+        word-wrap: break-word;
     }
     
     #main-info > #capital {
@@ -173,6 +174,7 @@ td > #form, td > #flag-img {
             font-size:13px;
             margin-right: 10px;
             text-align: right;
+            word-wrap: break-word;
         }
         
         #main-info > #capital {
@@ -203,6 +205,7 @@ td > #form, td > #flag-img {
         font-size:10px;
         margin-right: 8px;
         text-align: right;
+        word-wrap: break-word;
     }
     
     #main-info > #capital {
@@ -210,6 +213,7 @@ td > #form, td > #flag-img {
         font-size: 13px;
         margin-right: 8px;
         text-align: right;
+        
       
     }
 }
@@ -217,5 +221,5 @@ td > #form, td > #flag-img {
 
 h1 {
     font-family: 'Source Code Pro', monospace;   
-
+ 
 }
