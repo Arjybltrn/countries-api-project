@@ -69,6 +69,7 @@ Project Link: <a href="https://hello-world-rose-sigma.vercel.app/" target="_blan
 - Google Maps for users to navigate the country search
 - Save a searched country to localstorage
 - Ability to search multiple countries and display at the same time using a carousel
+- Add a dropdown option to select a country from the list
 
 <div align="right">
     <a href="#top">🔝</a>
