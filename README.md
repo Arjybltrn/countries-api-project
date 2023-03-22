@@ -22,7 +22,7 @@ Say hello, to <span style="font-family: Source Code Pro">// HLLO_WRLD.</span>
 
 
 ---
-## **About the  project**
+## **About the project**
 ### **Built with**
 
 
