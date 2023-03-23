@@ -80,7 +80,7 @@ Project Link: <a href="https://hello-world-rose-sigma.vercel.app/" target="_blan
 
 ## Author
 ```
-const aboutMe: = {
+const aboutMe = {
     firstName: "Arjay",
     lastName: "Beltran",
     githubUsername: "arjybltrn"
