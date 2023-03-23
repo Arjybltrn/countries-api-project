@@ -53,9 +53,9 @@ function render () {
     // Check Population then converts to a string(commas added)
     let num = countryData.population
     // console.log(num) 
-    let peeps = num.toLocaleString()
-    // console.log(peeps)
-    $population.text(`Population: ${peeps} people`)
+    let popEl = num.toLocaleString()
+    // console.log(popEl)
+    $population.text(`Population: ${popEl} people`)
 
 
     // Language
@@ -65,8 +65,7 @@ function render () {
     $lang.text(`Languages: ${langVal}`)
 
 
-    // Check currencies
-
+    // Currency
     const curr = countryData.currencies
     const countryCurr = Object.values(curr)
     // console.log(countryCurr[0].name)
