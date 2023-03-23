@@ -43,6 +43,7 @@ Say hello, to <span style="font-family: Source Code Pro">// HLLO_WRLD.</span>
 
 ![app screenshot](md_img/sc1.PNG)
 ![mobile iphone12](md_img/sc2.PNG)
+![Alt text](md_img/sc2.PNG)
 
 <div align="right">
     <a href="#top">🔝</a>
