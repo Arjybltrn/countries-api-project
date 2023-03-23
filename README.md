@@ -42,6 +42,7 @@ Say hello, to <span style="font-family: Source Code Pro">// HLLO_WRLD.</span>
 ## **Screenshots**
 
 ![app screenshot](md_img/sc1.PNG)
+![mobile iphone12](md_img/sc2.png)
 
 <div align="right">
     <a href="#top">🔝</a>
@@ -70,7 +71,6 @@ Project Link: <a href="https://hello-world-rose-sigma.vercel.app/" target="_blan
 - Save a searched country to localstorage
 - Ability to search multiple countries and display at the same time using a carousel
 - Add a dropdown option to select a country from the list
-- Make it mobile-friendly 
 
 <div align="right">
     <a href="#top">🔝</a>
