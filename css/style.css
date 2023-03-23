@@ -26,6 +26,8 @@ body {
 }
 
 .card {
+    margin: 50px;
+    width: auto;
     padding: 50px;
     border: solid 2px black;
     border-radius: 10px;
@@ -209,11 +211,93 @@ td > #form, td > #flag-img {
         text-align: right;
         
       
-    }
+    } 
 }
+    @media (max-width: 500px) {
+        #main-info > #country {
+            font-family: 'Koulen';
+            float: left;
+            margin-left: 20%;
+        }  
+        #main-info > #capital {
+            font-family: 'Miriam Libre', sans-serif;
+            font-size: 15px;
+        }
+        #main-info > #population, #lang, #currency {
+            font-family: 'Miriam Libre', sans-serif;
+        }
+
+        /* body {
+            margin: 20px;
+        } */
+        .card {
+            justify-content: center;
+            align-content: center;
+            width: 320px;
+            height: 500px;
+            margin: 0 auto;
+        }
+    
+        form {
+            justify-content: center;
+            align-content: center;
+            width: 20px;
+            height: 10px;
+            margin: 0 auto;
+            padding-top: 20px;
+        }
+        td {
+            justify-content: center;
+            align-content: center;
+            display:grid;
+            grid-column: auto;
+        }
+        td > #flag-img {
+            justify-content: center;
+            align-content: center;
+            margin: 0 auto;
+            padding-bottom: 20px;
+        }
+        form > .button, form > .text-box {
+            justify-content: center;
+            align-content: center;
+            margin: 0 auto;
+        }
+        h1 {
+            font-family: 'Source Code Pro', monospace; 
+            font-size: 20px; 
+            margin: 3%;
+        }
+        div > .card {
+            justify-content: center;
+            align-content: center;
+            margin: 0 auto;
+            height: auto;
+        }
+        .card-container {
+           padding: 20px;
+            align-content: center;
+        }
+        input[type="text"] {
+            width: 80px;
+            height: 20px;
+            font-size:8px;
+            margin-right: 12px;
+            border-radius: 20px;
+        }
+
+        input[type="submit"] {
+            padding-left: 20px;
+            width: 80px;
+            height: 20px;
+            font-size:8px;
+            border-radius: 20px;
+            background-color: rgb(231,229,220);
+        }
+        
+    }
 }
 
 h1 {
     font-family: 'Source Code Pro', monospace;   
- 
 }
