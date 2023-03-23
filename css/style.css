@@ -1,17 +1,18 @@
 html {
     height: 100%;
     width: 100%;
-  }
-  
+  } 
   *{
     box-sizing: border-box;
-  }
+   }
+
 body {
     background-color: whitesmoke;
     height: 100vh;
     margin: 0;
     color: rgb(56,59,65)
 }
+
 .flex-ctr {
     display: flex;
     justify-content: center;
@@ -22,11 +23,9 @@ body {
     align-content: center;
     background-color: whitesmoke;
     padding: 150px;
-    
 }
+
 .card {
-    /* height: auto;
-    width: auto; */
     padding: 50px;
     border: solid 2px black;
     border-radius: 10px;
@@ -34,10 +33,7 @@ body {
     justify-content: center;
     margin: 0 auto;
     background-color: rgb(231,229,220) ;
-   
 }
-/* Main div */
-
 
 /* Image div */
 
@@ -46,7 +42,6 @@ img {
     height: 320px;
     border:  solid grey 1px;
     border-radius: 10px;
-
 }
 
 /* Form div */
@@ -55,15 +50,14 @@ form {
     display: flex;
     margin: 10px ;
     margin-left: 10px;
-    
 }
+
 input[type="text"] {
     width: 192px;
     height: 40px;
     font-size:16px;
     margin-right: 12px;
     border-radius: 20px;
-   
 }
 
 input[type="submit"] {
@@ -73,6 +67,7 @@ input[type="submit"] {
     border-radius: 20px;
     background-color: rgb(231,229,220);
 }
+
 .button {
     background-color:rgb(231,229,220);
     color: rgb(56,59,65);
@@ -80,7 +75,6 @@ input[type="submit"] {
     cursor:pointer;
     border-radius: 1px;
 }
-
 
 /* Font styles */
 
