@@ -40,9 +40,9 @@ Say hello, to <span style="font-family: Source Code Pro">// HLLO_WRLD.</span>
 ---
 
 ## **Screenshots**
-**_2016px x 1000px_**
+**_Desktop - 2016px x 1000px_**
 ![app screenshot](md_img/sc1.PNG)
-**_iPhone 12_**
+**_iPhone 12 - 390px x 844px_**
  <br>
 ![mobile iphone12](md_img/sc2.PNG)
 
